@@ -23,18 +23,20 @@ Face Mask Detection is a Python-based project designed to detect whether people 
 ### Steps
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/Prathewsh/Face-mask-detection.git
-    cd Face-mask-detection
-    ```
+
+   ```sh
+   git clone https://github.com/Prathewsh/Face-mask-detection.git
+   cd Face-mask-detection
+   ```
 
 2. Install the required packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
+
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 3. Download the pre-trained model weights:
-    - [Link to model weights] (provide a link to the model weights here)
+   - [Link to model weights] (provide a link to the model weights here)
 
 ## Usage
 
@@ -42,21 +44,21 @@ Face Mask Detection is a Python-based project designed to detect whether people 
 
 1. Place your images in the `images` directory.
 2. Run the script:
-    ```sh
-    python detect_mask_image.py --image images/your_image.jpg
-    ```
+   ```sh
+   python detect_mask_image.py --image images/your_image.jpg
+   ```
 
 ### Running the Detection on Video
 
 1. Ensure you have a video file or a webcam connected.
 2. Run the script:
-    ```sh
-    python detect_mask_video.py --video videos/your_video.mp4
-    ```
-    or for webcam:
-    ```sh
-    python detect_mask_video.py --video 0
-    ```
+   ```sh
+   python detect_mask_video.py --video videos/your_video.mp4
+   ```
+   or for webcam:
+   ```sh
+   python detect_mask_video.py --video 0
+   ```
 
 ### Command Line Arguments
 
@@ -76,6 +78,7 @@ Face Mask Detection is a Python-based project designed to detect whether people 
 ## How It Works
 
 The face mask detection system works in the following steps:
+
 1. **Face Detection**: Uses a pre-trained face detection model to locate faces in the input.
 2. **Mask Classification**: Classifies the detected faces into two categories: with mask and without mask.
 3. **Annotation**: Annotates the image or video frames with the detection results.
@@ -83,6 +86,7 @@ The face mask detection system works in the following steps:
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
+
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix.
 3. Commit your changes and push to your fork.
@@ -99,4 +103,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or suggestions, please open an issue or contact [your-email@example.com](mailto:your-email@example.com).
+For any questions or suggestions, please open an issue or contact [prathewsh123@gmail.com](mailto:prathewsh123@gmail.com).
